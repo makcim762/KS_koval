@@ -1,0 +1,44 @@
+module tb_adder;
+
+  reg  [4:0] a_reg, b_reg;
+  reg        carry_in_reg;
+  wire [4:0] sum_custom, sum_ref;
+  wire       carry_custom, carry_ref;
+
+  wire [4:0] a_wire = a_reg;
+  wire [4:0] b_wire = b_reg;
+  wire       carry_in = carry_in_reg;
+
+  adder5 custom_adder (
+    .a(a_wire),
+    .b(b_wire),
+    .cin(carry_in),
+    .sum(sum_custom),
+    .cout(carry_custom)
+  );
+
+  ref_adder ref_model (
+    .a(a_wire),
+    .b(b_wire),
+    .cin(carry_in),
+    .sum(sum_ref),
+    .cout(carry_ref)
+  );
+
+  initial begin
+    $display("Time\tA\tB\tCin\tCustomSum\tCout_C\tCin_Reg\tRefSum\tCout_R");
+    $monitor("%0t\t%b\t%b\t%b\t%b\t%b\t%b\t%b\t%b",
+      $time, a_wire, b_wire, carry_in, sum_custom, carry_custom,
+      carry_in_reg, sum_ref, carry_ref);
+    #400 $finish;
+  end
+
+  initial begin
+    a_reg = 5'b01101; b_reg = 5'b00001; carry_in_reg = 0;
+    #50 a_reg = 5'b10101; b_reg = 5'b11100; 
+    #50 a_reg = 5'b00001; b_reg = 5'b00001;
+    #50 a_reg = 5'b11110; b_reg = 5'b10101; carry_in_reg = 1;
+  end
+
+endmodule
+

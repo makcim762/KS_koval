@@ -1,0 +1,19 @@
+module sum5bit_sync (
+  input  [4:0] X,
+  input  [4:0] Y,
+  input        Cin,
+  output [4:0] result,
+  output       carryOut
+);
+
+  reg [5:0] tempSum;
+
+  always @(*) begin
+    tempSum = X + Y + Cin;
+  end
+
+  assign result   = tempSum[4:0];
+  assign carryOut = tempSum[5];
+
+endmodule
+

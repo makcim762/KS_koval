@@ -1,0 +1,23 @@
+D:/modelsim/modelsim_ase/Koval/sumator.v {1 {vlog -work work -nocovercells D:/modelsim/modelsim_ase/Koval/sumator.v
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module adder5
+-- Compiling module full_adder
+
+Top level modules:
+	adder5
+
+} {} {}} D:/modelsim/modelsim_ase/Koval/orig_sumator.v {1 {vlog -work work -nocovercells D:/modelsim/modelsim_ase/Koval/orig_sumator.v
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module ref_adder
+
+Top level modules:
+	ref_adder
+
+} {} {}} D:/modelsim/modelsim_ase/Koval/testbench.v {1 {vlog -work work -nocovercells D:/modelsim/modelsim_ase/Koval/testbench.v
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module tb_adder
+
+Top level modules:
+	tb_adder
+
+} {} {}}
