@@ -1,0 +1,95 @@
+m255
+K3
+13
+cModel Technology
+dC:\altera\13.1
+vddnf
+I=X4^PiOnLHh@?;ZjY3A841
+V9:l?X4<]@Eo1SF>PCXoCf0
+Z0 dC:\altera\13.1\lab4_Koval
+w1749578021
+Z1 8C:/altera/13.1/lab4_Koval/ddnf.v
+Z2 FC:/altera/13.1/lab4_Koval/ddnf.v
+L0 1
+Z3 OV;L;10.1d;51
+r1
+31
+Z4 !s90 -reportprogress|300|-work|work|C:/altera/13.1/lab4_Koval/ddnf.v|
+Z5 o-work work -O0
+Z6 !s107 C:/altera/13.1/lab4_Koval/ddnf.v|
+!s100 mlA<@SbL0N?AH[^j1[S4E2
+!s108 1749578160.434000
+!i10b 1
+!s85 0
+!s101 -O0
+vddnfv
+IKMH=7P>Ac09FRb:MCL>GE0
+VO6Cc_f<3U;GGB8eaSPDLa2
+Z7 dC:\altera\13.1\lab4_Koval
+w1749578306
+R1
+R2
+L0 1
+R3
+r1
+31
+R4
+R5
+R6
+!s100 2Rm1^@XbObaIa[8ch8iHz1
+!s108 1749578360.035000
+!i10b 1
+!s85 0
+!s101 -O0
+vddnfv2
+I^UmZ<glEdi?E;hO5ozThA2
+V4egj;C1BD47n>g3:XMgV_1
+R7
+w1749857422
+R1
+R2
+L0 1
+Z8 OV;L;6.5b;42
+r1
+31
+Z9 o-work work -nocovercells -O0
+!s100 @n25`6zDoGeR8NPzlZfe;2
+!s85 0
+!s101 -O0
+Z10 !s102 -nocovercells
+vdknf
+!s100 n4C[8^6dQ6R1CX8^YUaA23
+IbDYE>Ukc]h>@YWkCDgeOO3
+V1Z]`i1iZ[HV<6_MiG4k=>1
+R7
+w1749857648
+8C:/altera/13.1/lab4_Koval/dknf.v
+FC:/altera/13.1/lab4_Koval/dknf.v
+L0 1
+R8
+r1
+!s85 0
+31
+!s101 -O0
+R10
+R9
+vEx2_OR
+I4?nI24TI6_N6SGWc75ob81
+VYfliPh^TfB6O=FTZ0CUe30
+R7
+w1749573858
+8C:/altera/13.1/lab4_Koval/Ex_2_Koval_OR.v
+FC:/altera/13.1/lab4_Koval/Ex_2_Koval_OR.v
+L0 1
+R3
+r1
+31
+R5
+n@ex2_@o@r
+!s100 iC<]]eLH5@:P_TV@e0dAU0
+!s90 -reportprogress|300|-work|work|C:/altera/13.1/lab4_Koval/Ex_2_Koval_OR.v|
+!s108 1749578160.393000
+!s107 C:/altera/13.1/lab4_Koval/Ex_2_Koval_OR.v|
+!i10b 1
+!s85 0
+!s101 -O0

@@ -1,0 +1,8 @@
+module dknf( 
+  input x1, x2, x3, 
+  output q 
+); 
+  assign q = (x1); 
+endmodule
+
+
